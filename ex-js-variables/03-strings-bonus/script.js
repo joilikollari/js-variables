@@ -29,3 +29,23 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = '';
 console.log(upperCaseHello); // Output: "HELLO"
+
+// 1. Cerca un carattere in una stringa
+const cityIndex = city.indexOf('Y');
+console.log(cityIndex); // Output: 4
+
+// 2. Sottostringhe
+const citySubstring = city.substring(4, 8);
+console.log(citySubstring); // Output: "York"
+
+// 3. Sostituzione
+const cityReplaced = city.replace('York', 'Delhi');
+console.log(cityReplaced); // Output: "New Delhi"
+
+// 4. Template literal
+const cityNameConcat = `${city} ${cityName}`;
+console.log(cityNameConcat); // Output: "New York City"
+
+// 5. Tutto in maiscolo
+const upperCaseHello = hello.toUpperCase();
+console.log(upperCaseHello); // Output: "HELLO"
